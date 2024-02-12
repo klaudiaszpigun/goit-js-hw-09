@@ -37,7 +37,7 @@ form.addEventListener('submit', event => {
     createdPromises++;
   }, delayStep);
 });
-
+//
 function createPromise(position, delay) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
